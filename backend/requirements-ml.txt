@@ -1,0 +1,11 @@
+# Optional AI model (reads meaning, not just keywords). Install on top of
+# requirements.txt. CPU-only build of PyTorch, no graphics card needed:
+#
+#   pip install -r requirements-ml.txt --extra-index-url https://download.pytorch.org/whl/cpu
+#
+# The model (~1.1 GB) downloads automatically on the first server start.
+# Without these packages the app still works using the rule-based detectors.
+torch
+transformers
+sentencepiece
+protobuf

@@ -1,0 +1,14 @@
+document_id,text,label,expected_alert
+1,"This weekly update describes normal team progress and sprint planning.",safe,Green
+2,"This internal document contains email rahul@example.com and phone 9876543210.",sensitive,Yellow
+3,"This confidential document includes bank account details and urgent payment instructions.",risky,Yellow
+4,"This file contains password information, fraud indicators, and bank account data.",fraud,Red
+5,"Please bypass approval, ignore audit, and delete after reading.",policy_violation,Red
+6,"This is a final warning. Pay or else we will leak your data.",threat,Red
+7,"FINAL FINAL FINAL FINAL WARNING!!!!!! PAY 999999999999 NOW.",anomaly,Yellow
+8,"This report contains PAN ABCDE1234F and employee contact information.",sensitive,Yellow
+9,"The pharmacy said the medicine is harmless when taken as prescribed.",safe,Green
+10,"FAQ. How do I reset my login? Where is my order? Can I return items? Is shipping free? Who do I call?",safe,Green
+11,"ACME Ltd quarterly report. Revenue grew in every region and the board approved the budget.",safe,Green
+12,"Invoice INV-20231115. Questions? Write to billing@acme-store.com. Order number 1234567890123.",safe,Green
+13,"Customer card on file: 4111 1111 1111 1111. Aadhaar 2341 2341 2346 verified.",sensitive,Red

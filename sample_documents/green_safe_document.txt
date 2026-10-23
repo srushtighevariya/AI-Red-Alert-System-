@@ -1,0 +1,1 @@
+This project update document describes the weekly progress of the development team. The team completed backend setup, tested document upload, and prepared the next sprint plan.

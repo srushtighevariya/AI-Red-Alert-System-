@@ -1,0 +1,37 @@
+# Python virtual environment
+backend/.venv/
+
+# Environment variables
+backend/.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing/cache folders
+.pytest_cache/
+.mypy_cache/
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# VS Code local settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+# OCR language files (downloaded by backend/scripts/download_ocr_languages.py)
+backend/tessdata/*.traineddata
+
+# Windows shortcuts and notebook checkpoints
+*.lnk
+.ipynb_checkpoints/

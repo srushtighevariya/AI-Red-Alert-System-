@@ -1,0 +1,1 @@
+This internal file contains employee contact details including email priya@example.com and phone 9876543210. Please review this information carefully.
